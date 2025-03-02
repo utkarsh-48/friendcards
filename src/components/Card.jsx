@@ -50,7 +50,7 @@ const Card = ({ value }) => {
             <Insta jj={elem.insta} />
           </div>
           <div className="button2">
-          <button onClick={() => window.open(elem.git, "_self")}>
+          <button onClick={() => window.open(elem.friend, "_self")}>
             Add Friend
           </button> </div>
           <div className="arrow-icon" onClick={handleNext}>
